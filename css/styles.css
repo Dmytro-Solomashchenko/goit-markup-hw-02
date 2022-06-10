@@ -54,6 +54,10 @@ ul {
     color: var(--accent-color);
 }
 
+.header-nav .link{
+    color: var(--primary-text-color);
+}
+
 .header-contacts .link {
     color: var(--secondary-text-color);
 }
