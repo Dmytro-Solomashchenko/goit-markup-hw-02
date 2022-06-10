@@ -96,6 +96,7 @@ color: var(--accent-color);
 
 /* button */
 .button-primary{
+    cursor: pointer;
     color: var(--white-color);
     background-color: var(--accent-color);
     font-weight: 700;
@@ -105,6 +106,7 @@ color: var(--accent-color);
 }
 
 .button-secondary{
+    cursor: pointer;
     background-color: var(--secondary-bg-color);
     font-weight: 500;
     font-size: 16px;
@@ -179,7 +181,7 @@ color: var(--accent-color);
     line-height: 1.71;
 }
 
-.adress {
+.street {
     color: var(--footer-primary-text-color);
 }
 
