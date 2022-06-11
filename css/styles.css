@@ -6,7 +6,6 @@
     --white-color: #FFFFFF;
     --footer-primary-text-color: #FFFFFF;
     --footer-secondary-text-color: rgba(255, 255, 255, 0.6);
-    --button-hover: #188CE8;
     --header-bg-color: #FFFFFF;
     --primary-bg-color: #FFFFFF;
     --secondary-bg-color: #F5F4FA;
@@ -104,7 +103,6 @@ color: var(--accent-color);
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.06em;
-    border: none;
 }
 
 .button-secondary{
@@ -113,14 +111,7 @@ color: var(--accent-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
-    border: none;
 }
-
-.button-primary:hover,
-.button-primary:focus{
-    background-color: var(--button-hover);
-}
-
 
 .button-secondary:hover,
 .button-secondary:focus{
@@ -172,10 +163,6 @@ color: var(--accent-color);
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-}
-
-.link {
-    text-decoration: none;
 }
 
 .projects .projects-type{
