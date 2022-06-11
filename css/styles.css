@@ -1,3 +1,6 @@
+/* ------------------------------------------------------------ */
+/*                           Rules */
+/* ------------------------------------------------------------ */
 :root {
     --primary-text-color: #212121;
     --secondary-text-color: #757575;
@@ -26,6 +29,10 @@ ul {
     list-style: none;
 }
 
+.link {
+    text-decoration: none;
+}
+/* ------------------------------------------------------------ */
 /* logo */
 .header-logo-web,
 .footer-logo-web,
@@ -49,9 +56,8 @@ ul {
 .footer-logo-studio {
     color: var(--footer-primary-text-color);
 }
-
+/* ------------------------------------------------------------ */
 /* header */
-
 .header-nav .link.current {
     color: var(--accent-color);
 }
@@ -79,10 +85,28 @@ ul {
 .footer-contacts .link:focus {
     color: var(--accent-color);
 }
+/* ------------------------------------------------------------ */
+/* footer */
+.footer {
+    background-color: var(--footer-bg-color);
+}
 
-/* main */
+.footer-adress {
+    font-style: normal;
+    line-height: 1.71;
+}
 
-/* hero */
+.location {
+    color: var(--footer-primary-text-color);
+}
+
+.footer-contacts .link {
+    color: var(--footer-secondary-text-color)
+}
+/* ------------------------------------------------------------ */
+/*                       Index Main */
+/* ------------------------------------------------------------ */
+/* Index-Section1-Hero */
 .hero {
     background-color: var(--hero-bg-color);
 }
@@ -96,8 +120,7 @@ ul {
     letter-spacing: 0.06em;
 }
 
-/* button */
-.button-primary {
+.button-hero {
     cursor: pointer;
     color: var(--white-color);
     background-color: var(--accent-color);
@@ -108,29 +131,12 @@ ul {
     border: none;
 }
 
-.button-secondary {
-    cursor: pointer;
-    background-color: var(--secondary-bg-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.63;
-    border: none;
-}
-
-.button-primary:hover,
-.button-primary:focus {
+.button-hero:hover,
+.button-hero:focus {
     background-color: var(--button-hover-color);
 }
-
-
-.button-secondary:hover,
-.button-secondary:focus {
-    color: var(--white-color);
-    background-color: var(--accent-color);
-}
-
-/* features */
-
+/* ------------------------------------------------------------ */
+/* Index-Section2-Features */
 .feature-list .feature-title {
     font-weight: 700;
     line-height: 1.14;
@@ -140,18 +146,20 @@ ul {
     color: var(--secondary-text-color);
     line-height: 1.71;
 }
-
-/* section */
-.team {
-    background-color: var(--secondary-bg-color);
-}
-
+/* ------------------------------------------------------------ */
+/* Index-Section3-Work */
 .section-title {
     color: #212121;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+}
+/* ------------------------------------------------------------ */
+/* Index-Section4-Team */
+/* .section-title (Section3) is dublicated in this section */
+.team {
+    background-color: var(--secondary-bg-color);
 }
 
 .team-title {
@@ -167,7 +175,26 @@ ul {
     font-size: 16px;
     line-height: 1.19;
 }
+/* ------------------------------------------------------------ */
+/*                      Portfolio-Main */
+/* ------------------------------------------------------------ */
+/* Portfolio-Filters */
+.button-filters {
+    cursor: pointer;
+    background-color: var(--secondary-bg-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    border: none;
+}
 
+.button-filters:hover,
+.button-filters:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+/* ------------------------------------------------------------ */
+/* Portfolio-Projects */
 .projects .projects-title {
     color: var(--primary-text-color);
     font-weight: 700;
@@ -176,30 +203,9 @@ ul {
     letter-spacing: 0.06em;
 }
 
-.link {
-    text-decoration: none;
-}
-
 .projects .projects-type {
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.88;
 }
-
-/* footer */
-.footer {
-    background-color: var(--footer-bg-color);
-}
-
-.footer-adress {
-    font-style: normal;
-    line-height: 1.71;
-}
-
-.street {
-    color: var(--footer-primary-text-color);
-}
-
-.footer-contacts .link {
-    color: var(--footer-secondary-text-color)
-}
+/* ------------------------------------------------------------ */
