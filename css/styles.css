@@ -5,16 +5,15 @@
     --primary-text-color: #212121;
     --secondary-text-color: #757575;
     --accent-color: #2196F3;
-    --logo-black-color: #000000;
     --white-color: #FFFFFF;
-    --footer-primary-text-color: #FFFFFF;
-    --footer-secondary-text-color: rgba(255, 255, 255, 0.6);
-    --button-hover-color: #188CE8;
-    --header-bg-color: #FFFFFF;
+    --logo-black-color: #000000;
+    --footer-text-color: rgba(255, 255, 255, 0.6);
+    
     --primary-bg-color: #FFFFFF;
     --secondary-bg-color: #F5F4FA;
-    --hero-bg-color: #2F303A;
-    --footer-bg-color: #2F303A;
+    --tertiary-bg-color: #2F303A;
+
+    --button-hover-color: #188CE8;
 }
 
 body {
@@ -54,7 +53,7 @@ ul {
 }
 
 .footer-logo-studio {
-    color: var(--footer-primary-text-color);
+    color: var(--white-color);
 }
 /* ------------------------------------------------------------ */
 /* header */
@@ -88,7 +87,7 @@ ul {
 /* ------------------------------------------------------------ */
 /* footer */
 .footer {
-    background-color: var(--footer-bg-color);
+    background-color: var(--tertiary-bg-color);
 }
 
 .footer-adress {
@@ -97,18 +96,18 @@ ul {
 }
 
 .location {
-    color: var(--footer-primary-text-color);
+    color: var(--white-color);
 }
 
 .footer-contacts .link {
-    color: var(--footer-secondary-text-color)
+    color: var(--footer-text-color)
 }
 /* ------------------------------------------------------------ */
 /*                       Index Main */
 /* ------------------------------------------------------------ */
 /* Index-Section1-Hero */
 .hero {
-    background-color: var(--hero-bg-color);
+    background-color: var(--tertiary-bg-color);
 }
 
 .hero-title {
@@ -118,6 +117,7 @@ ul {
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .button-hero {
@@ -137,12 +137,13 @@ ul {
 }
 /* ------------------------------------------------------------ */
 /* Index-Section2-Features */
-.feature-list .feature-title {
+.features-list .features-title {
     font-weight: 700;
     line-height: 1.14;
+    text-transform: uppercase;
 }
 
-.feature-list .features-text {
+.features-list .features-text {
     color: var(--secondary-text-color);
     line-height: 1.71;
 }
