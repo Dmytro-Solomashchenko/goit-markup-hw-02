@@ -6,6 +6,7 @@
     --white-color: #FFFFFF;
     --footer-primary-text-color: #FFFFFF;
     --footer-secondary-text-color: rgba(255, 255, 255, 0.6);
+    --button-hover: #188CE8;
     --header-bg-color: #FFFFFF;
     --primary-bg-color: #FFFFFF;
     --secondary-bg-color: #F5F4FA;
@@ -24,6 +25,7 @@ body {
 ul {
     list-style: none;
 }
+
 /* logo */
 .header-logo-web,
 .footer-logo-web,
@@ -45,12 +47,12 @@ ul {
 }
 
 .footer-logo-studio {
-   color: var(--footer-primary-text-color);
+    color: var(--footer-primary-text-color);
 }
 
 /* header */
 
-.header-nav .link.current{
+.header-nav .link.current {
     color: var(--accent-color);
 }
 
@@ -63,7 +65,7 @@ ul {
 }
 
 .header-nav .link,
-.header-contacts .link{
+.header-contacts .link {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -74,8 +76,8 @@ ul {
 .header-contacts .link:hover,
 .header-contacts .link:focus,
 .footer-contacts .link:hover,
-.footer-contacts .link:focus{
-color: var(--accent-color);
+.footer-contacts .link:focus {
+    color: var(--accent-color);
 }
 
 /* main */
@@ -95,7 +97,7 @@ color: var(--accent-color);
 }
 
 /* button */
-.button-primary{
+.button-primary {
     cursor: pointer;
     color: var(--white-color);
     background-color: var(--accent-color);
@@ -103,25 +105,33 @@ color: var(--accent-color);
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.06em;
+    border: none;
 }
 
-.button-secondary{
+.button-secondary {
     cursor: pointer;
     background-color: var(--secondary-bg-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
+    border: none;
 }
 
+.button-primary:hover,
+.button-primary:focus {
+    background-color: var(--button-hover);
+}
+
+
 .button-secondary:hover,
-.button-secondary:focus{
+.button-secondary:focus {
     color: var(--white-color);
     background-color: var(--accent-color);
 }
 
 /* features */
 
-.feature-list .feature-title{
+.feature-list .feature-title {
     font-weight: 700;
     line-height: 1.14;
 }
@@ -147,6 +157,7 @@ color: var(--accent-color);
 .team-title {
     font-weight: 500;
 }
+
 .team-position {
     color: var(--secondary-text-color);
 }
@@ -157,7 +168,7 @@ color: var(--accent-color);
     line-height: 1.19;
 }
 
-.projects .projects-title{
+.projects .projects-title {
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 18px;
@@ -165,7 +176,11 @@ color: var(--accent-color);
     letter-spacing: 0.06em;
 }
 
-.projects .projects-type{
+.link {
+    text-decoration: none;
+}
+
+.projects .projects-type {
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.88;
