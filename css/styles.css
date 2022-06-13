@@ -140,6 +140,7 @@ ul {
 .features-list .features-title {
     font-weight: 700;
     line-height: 1.14;
+    font-size: 14px;
     text-transform: uppercase;
 }
 
